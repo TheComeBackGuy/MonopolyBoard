@@ -43,15 +43,15 @@
         <!-- properties on the "top" of the board. gamerow is just the containter-->
         <div class="gameRow top">
             <div class="row">
-                <div class="space"><div class="property yellow"></div><h3>MARVIN<br>GARDENS</h3><h3>M280</h3></div>
-                <div class="space"><div class="property yellow"></div><h3>VENTNOR<br>AVENUE</h3><h3>M150</h3></div>
-                <div class="space"><h3>WATER<br>WORKS</h3><img class="rr" src="./images/waterWorks.svg"><h3>M260</h3></div>
-                <div class="space"><div class="property yellow"></div><h3>ATLANTIC<br>AVENUE</h3><h3>M260</h3></div>
-                <div class="space"><h3>B & O<br>RAILROAD</h3><img class="rr" src="./images/train.svg"><h3>M200</h3></div>
-                <div class="space"><div class="property red"></div><h3>ILLINOIS<br>AVENUE</h3><h3>M240</h3></div>
-                <div class="space"><div class="property red"></div><h3>INDIANA<br>AVENUE</h3><h3>M220</h3></div>
+                <div class="space"><div class="property yellow"></div><h3>MARVIN<br>GARDENS</h3><h3><span class="strike">M</span>280</h3></div>
+                <div class="space"><div class="property yellow"></div><h3>VENTNOR<br>AVENUE</h3><h3><span class="strike">M</span>150</h3></div>
+                <div class="space"><h3>WATER<br>WORKS</h3><img class="rr" src="./images/waterWorks.svg"><h3><span class="strike">M</span>260</h3></div>
+                <div class="space"><div class="property yellow"></div><h3>ATLANTIC<br>AVENUE</h3><h3><span class="strike">M</span>260</h3></div>
+                <div class="space"><h3>B & O<br>RAILROAD</h3><img class="rr" src="./images/train.svg"><h3><span class="strike">M</span>200</h3></div>
+                <div class="space"><div class="property red"></div><h3>ILLINOIS<br>AVENUE</h3><h3><span class="strike">M</span>240</h3></div>
+                <div class="space"><div class="property red"></div><h3>INDIANA<br>AVENUE</h3><h3><span class="strike">M</span>220</h3></div>
                 <div class="space"><h3>CHANCE</h3><img class="chance" src="./images/chance.svg"></div>
-                <div class="space"><div class="property red"></div><h3>KENTUCKY<br>AVENUE</h3><h3>M200</h3></div>
+                <div class="space"><div class="property red"></div><h3>KENTUCKY<br>AVENUE</h3><h3><span class="strike">M</span>200</h3></div>
             </div>
         </div>
         
@@ -61,23 +61,36 @@
         <!-- gameRow is the container so "row" can be rotated -->
         <div class="gameRow left">
             <div class="row">
-                <div class="space"><div class="property orange"></div><h3>NEW YORK<br>AVENUE</h3><h3>M200</h3></div>
-                <div class="space"><div class="property orange"></div><h3>TENNESSEE<br>AVENUE</h3><h3>M180</h3></div>
+                <div class="space"><div class="property orange"></div><h3>NEW YORK<br>AVENUE</h3><h3><span class="strike">M</span>200</h3></div>
+                <div class="space"><div class="property orange"></div><h3>TENNESSEE<br>AVENUE</h3><h3><span class="strike">M</span>180</h3></div>
                 <div class="space"><h3>COMMUNITY<br>CHEST</h3><img class="chest" src="./images/chest.svg" alt="Community Chest"></div>
-                <div class="space"><div class="property orange"></div><h3>ST. JAMES<br>PLACE</h3><h3>M180</h3></div>
-                <div class="space"><h3>PENNSYLVANIA<br>RAILROAD</h3><img class="rr" src="./images/train.svg" alt="Pennsylvania Railroad"><h3>M200</h3></div>
-                <div class="space"><div class="property purple"></div><h3>VIRGINIA<br>AVENUE</h3><h3>M160</h3></div>
-                <div class="space"><div class="property purple"></div><h3>STATES<br>AVENUE</h3><h3>M140</h3></div>
-                <div class="space"><h3>ELECTRIC<br>COMPANY</h3><img class="electric" src="./images/electric.svg" alt="Electric Company"><h3>M150</h3></div>
-                <div class="space"><div class="property purple"></div><h3>ST. CHARLES<br>PLACE</h3><h3>M140</h3></div>
+                <div class="space"><div class="property orange"></div><h3>ST. JAMES<br>PLACE</h3><h3><span class="strike">M</span>180</h3></div>
+                <div class="space"><h3>PENNSYLVANIA<br>RAILROAD</h3><img class="rr" src="./images/train.svg" alt="Pennsylvania Railroad"><h3><span class="strike">M</span>200</h3></div>
+                <div class="space"><div class="property purple"></div><h3>VIRGINIA<br>AVENUE</h3><h3><span class="strike">M</span>160</h3></div>
+                <div class="space"><div class="property purple"></div><h3>STATES<br>AVENUE</h3><h3><span class="strike">M</span>140</h3></div>
+                <div class="space"><h3>ELECTRIC<br>COMPANY</h3><img class="electric" src="./images/electric.svg" alt="Electric Company"><h3><span class="strike">M</span>150</h3></div>
+                <div class="space"><div class="property purple"></div><h3>ST. CHARLES<br>PLACE</h3><h3><span class="strike">M</span>140</h3></div>
             </div>
         </div>
 
         <!-- CENTER has 3 rows for the cards and logo -->
         <div class="center">
-            <div class="top"><div class="cChestCards"><h3>COMMUNITY CHEST</h3></div></div>
-            <div><img class="logo" src="./images/MonopolyLogo.svg"></div>
-            <div class="bottom"><div></div><div class="chanceCards"><h3>CHANCE</h3></div></div>
+            <div class="top"><div class="cardCase"><h1>COMMUNITY CHEST</h1><div class="cChestCards"></div></div></div>
+            <div><img class="logo" src="./images/MonopolyLogo.svg">
+                    <cite>
+                    <p>REGISTERED IN US PATENT OFFICE
+                    MARCA REGISTRADA</p>
+                        
+                    <p>THE DISTICTIVE DESIGN OF THE GAMEBOARD AND
+                    PIECES AS WELL AS THE WORD "MONOPOLY" ARE THE TRADEMARKS OF PARKER BROTHERS INC.
+                    FOR IT'S REAL ESTATE TRADING GAME EQUIPMENT.</p>
+
+                    <p>© 1935, 1946, 1961, 1974 BY PARKER BROTHERS INC.</p>
+                    
+                    <p>MADE IN U.S.A.</p>
+                    </cite>
+                </div>
+            <div class="bottom"><div></div><div class ="cardCase"><h1>CHANCE</h1><div class="chanceCards"></div></div></div>
             
             <!-- <object class="logo" type="image/svg+xml" data="./images/monopoly.svg" width="50" height="50"> -->
         </div>
@@ -85,15 +98,15 @@
         <!-- gameRight is the container so "row" can be rotated -->
         <div class="gameRow right">
             <div class="row">
-                <div class="space"><div class="property blue"></div><h3>BOARDWALK</h3><h3>M400</h3></div>
-                <div class="space"><h2>LUXURY<br>TAX</h2><img class="luxury" src="./images/luxury.svg" alt="Luxury Tax"><h3>M110</h3></div>
-                <div class="space"><div class="property blue"></div><h3>PARK<br>PLACE</h3><h3>M350</h3></div>
+                <div class="space"><div class="property blue"></div><h3>BOARDWALK</h3><h3><span class="strike">M</span>400</h3></div>
+                <div class="space"><h2>LUXURY<br>TAX</h2><img class="luxury" src="./images/luxury.svg" alt="Luxury Tax"></div>
+                <div class="space"><div class="property blue"></div><h3>PARK<br>PLACE</h3><h3><span class="strike">M</span>350</h3></div>
                 <div class="space"><h3>CHANCE</h3><img class="chance" src="./images/chance.svg" alt="Chance"></div>
-                <div class="space"><h3>SHORT<br>LINE</h3><img class="rr" src="./images/train.svg" alt="Short Line Railroad"><h3>M200</h3></div>
-                <div class="space"><div class="property green"></div><h3>PENNSYLVANIA<br>AVENUE</h3><h3>M320</h3></div>
-                <div class="space"><div class="property green"></div><h3>NORTH<br>CAROLINA<br>AVENUE</h3><h3>M300</h3></div>
+                <div class="space"><h3>SHORT<br>LINE</h3><img class="rr" src="./images/train.svg" alt="Short Line Railroad"><h3><span class="strike">M</span>200</h3></div>
+                <div class="space"><div class="property green"></div><h3>PENNSYLVANIA<br>AVENUE</h3><h3><span class="strike">M</span>320</h3></div>
+                <div class="space"><div class="property green"></div><h3>NORTH<br>CAROLINA<br>AVENUE</h3><h3><span class="strike">M</span>300</h3></div>
                 <div class="space"><h3>COMMUNITY<br>CHEST</h3><img class="chest" src="./images/chest.svg" alt="Community Chest"></div>
-                <div class="space"><div class="property green"></div><h3>PACIFIC<br>AVENUE</h3><h3>M300</h3></div>
+                <div class="space"><div class="property green"></div><h3>PACIFIC<br>AVENUE</h3><h3><span class="strike">M</span>300</h3></div>
             </div>
         </div>
 
@@ -103,15 +116,15 @@
         <!-- gameRow is just a container -->
         <div class="gameRow">
             <div class="row">
-                <div class="space"><div class="property lightBlue"></div><h3>CONNECTICUT<br>AVENUE</h3><h3>M100</h3></div>
-                <div class="space"><div class="property lightBlue"></div><h3>VERMONT<br>AVENUE</h3><h3>M100</h3></div>
+                <div class="space"><div class="property lightBlue"></div><h3>CONNECTICUT<br>AVENUE</h3><h3><span class="strike">M</span>100</h3></div>
+                <div class="space"><div class="property lightBlue"></div><h3>VERMONT<br>AVENUE</h3><h3><span class="strike">M</span>100</h3></div>
                 <div class="space"><h3>CHANCE</h3><img class="chance" src="./images/chance.svg"></div>
-                <div class="space"><div class="property lightBlue"></div><h3>ORIENTAL<br>AVENUE</h3><h3>M100</h3></div>
-                <div class="space"><h3>READING<br>LINE</h3><img class="rr" src="./images/train.svg"><h3>M200</h3></div>
-                <div class="space"><h2>INCOME<br>TAX</h2><img class="income" src="./images/diamond.svg"><h3>M200</h3></div>
-                <div class="space"><div class="property brown"></div><h3>BALTIC<br>AVENUE</h3><h3>M60</h3></div>
+                <div class="space"><div class="property lightBlue"></div><h3>ORIENTAL<br>AVENUE</h3><h3><span class="strike">M</span>100</h3></div>
+                <div class="space"><h3>READING<br>LINE</h3><img class="rr" src="./images/train.svg"><h3><span class="strike">M</span>200</h3></div>
+                <div class="space"><h2>INCOME<br>TAX</h2><img class="income" src="./images/diamond.svg"><h3></h3></div>
+                <div class="space"><div class="property brown"></div><h3>BALTIC<br>AVENUE</h3><h3><span class="strike">M</span>60</h3></div>
                 <div class="space"><h3>COMMUNITY<br>CHEST</h3><img class="chest" src="./images/chest.svg" alt="Community Chest"></div>
-                <div class="space"><div class="property brown"></div><h3>MEDITER-<br>ANEAN<br>AVENUE</h3><h3>M60</h3></div>
+                <div class="space"><div class="property brown"></div><h3>MEDITER-<br>ANEAN<br>AVENUE</h3><h3><span class="strike">M</span>60</h3></div>
             </div>
         </div>
 
@@ -119,7 +132,7 @@
         <div class="corner go"><div class="start"><h3>COLLECT<br>$200 SALARAY<br>AS YOU PASS</h3><img class="goSvg" src="./images/go.svg"></div></div>
 </div>
 
-<script  src="./mechanics.mjs"></script>
+<script src="./mechanics.mjs"></script>
 
 </body>
 </html>
